@@ -1,3 +1,5 @@
+# Check out the life of Amogh Giri!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
