@@ -1,4 +1,4 @@
-# Check out the life of Amogh Giri!
+# Check out my life through my React website!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
