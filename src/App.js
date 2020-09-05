@@ -8,6 +8,7 @@ import Education from './contents/Education';
 import Experience from './contents/Experience';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
+import Social from './components/Social';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Contact />
         </Route>
       </div>
+      <Social />
     </Router>
   );
 }
