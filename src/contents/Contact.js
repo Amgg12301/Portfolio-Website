@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Social from '../components/Social';
 
 class Contact extends Component{
     render() {
         return (
-            <h1>Contact Me!</h1>
+            <div className="contact">
+                <h1>Contact Me!</h1>
+                <Social />
+            </div>
         )
     }
 }

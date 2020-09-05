@@ -8,7 +8,6 @@ import Education from './contents/Education';
 import Experience from './contents/Experience';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-import Social from './components/Social';
 
 function App() {
   return (
@@ -18,23 +17,22 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="about">
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="experience">
+        <Route path="/experience">
           <Experience />
         </Route>
-        <Route path="skills">
+        <Route path="/skills">
           <Skills />
         </Route>
-        <Route path="about">
+        <Route path="/about">
           <Education />
         </Route>
-        <Route path="contact">
+        <Route path="/contact">
           <Contact />
         </Route>
       </div>
-      <Social />
     </Router>
   );
 }
