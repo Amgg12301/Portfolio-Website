@@ -7,7 +7,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Experience from './contents/Experience';
 import Skills from './contents/Skills';
-import Contact from './contents/Contact';
+import Interests from './contents/Interests';
 
 function App() {
   return (
@@ -26,11 +26,11 @@ function App() {
         <Route path="/skills">
           <Skills />
         </Route>
-        <Route path="/about">
+        <Route path="/education">
           <Education />
         </Route>
-        <Route path="/contact">
-          <Contact />
+        <Route path="/interests">
+          <Interests />
         </Route>
       </div>
     </Router>

@@ -5,12 +5,14 @@ class NavBar extends Component{
     render(){
         return (
             <nav>
+                <ul>
                     <NavItem item = "Home" link = "/"></NavItem>
                     <NavItem item = "About Me" link = "/about"></NavItem>
                     <NavItem item = "Experience" link = "/experience"></NavItem>
-                    <NavItem item = "Projects and Skills" link = "/projects"></NavItem>
+                    <NavItem item = "Projects and Skills" link = "/skills"></NavItem>
                     <NavItem item = "Education" link = "/education"></NavItem>
-                    <NavItem item = "Contact" link = "/contact"></NavItem>
+                    <NavItem item = "Interests" link = "/interests"></NavItem>
+                </ul>
             </nav>
         )
     }

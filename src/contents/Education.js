@@ -5,7 +5,10 @@ class Education extends Component{
     render() {
         return (
             <div className="education">
-                <h1>My Education</h1>
+                <div className="content">
+                    <h1>Where have I studied at?
+                    </h1>
+                </div>
                 <Social />
             </div>
         )
