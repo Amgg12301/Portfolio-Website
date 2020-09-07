@@ -37,6 +37,10 @@ a:hover, a:active{
   text-decoration: none;
 }
 
+a:hover{
+  transform: scale(1.25);
+}
+
 .content{
   text-align: center;
   position: relative;
@@ -46,9 +50,9 @@ a:hover, a:active{
 
 .profile_pic{
   border-radius: 20%;
-  width: 300px;
-  height: 410px;
-  margin: 25px;
+  width: 350px;
+  height: 480px;
+  margin: 5px;
 }
 
 
