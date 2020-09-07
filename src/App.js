@@ -12,7 +12,6 @@ import Interests from './contents/Interests';
 function App() {
   return (
     <Router>
-      <div className="App">
         <NavBar />
         <Route exact path="/">
           <Home />
@@ -32,7 +31,6 @@ function App() {
         <Route path="/interests">
           <Interests />
         </Route>
-      </div>
     </Router>
   );
 }
