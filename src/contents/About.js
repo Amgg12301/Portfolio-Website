@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Social from '../components/Social';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Card, CardDeck } from 'react-bootstrap';
 
 class About extends Component{
     render() {
@@ -9,8 +8,8 @@ class About extends Component{
             <div className="about">
                 <div className="content">
                     <h1>Quick Facts About Me...</h1>
-                    <div className="card1">
-                    <CardGroup style={{display: 'flex', flexDirection: 'row'}}>
+                    <div class="card1">
+                    <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Img variant="top" src="holder.js/100px160" />
                         <Card.Body>
@@ -51,7 +50,7 @@ class About extends Component{
                         <small className="text-muted">Last updated 3 mins ago</small>
                         </Card.Footer>
                     </Card>
-                    </CardGroup>
+                    </CardDeck>
                     </div>
                 </div>
                 <Social />
