@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Social from '../components/Social';
-import { Card, CardDeck } from 'react-bootstrap';
+import { CardDeck, Card } from 'react-bootstrap';
 
 class Experience extends Component{
     render() {
@@ -11,44 +11,38 @@ class Experience extends Component{
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>The Aerospace Corporation</Card.Header>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Software Engineer Intern</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
+                        <Card.Footer>June 2020 - Present</Card.Footer>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>University of Maryland Computer Science Department</Card.Header>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Undergraduate Teaching Assistant</Card.Title>
                         <Card.Text>
                             This card has supporting text below as a natural lead-in to additional
                             content.{' '}
                         </Card.Text>
+                        <Card.Footer>August 2020 - Present</Card.Footer>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Capital One</Card.Header>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Software Engineering Summit and Hackathon</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This card has even longer content than the first to
                             show that equal height action.
                         </Card.Text>
+                        <Card.Footer>August 2020</Card.Footer>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     </CardDeck>
                     </div>

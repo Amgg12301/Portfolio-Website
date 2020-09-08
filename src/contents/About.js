@@ -11,7 +11,7 @@ class About extends Component{
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header></Card.Header>
                         <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -19,12 +19,9 @@ class About extends Component{
                             additional content. This content is a little bit longer.
                         </Card.Text>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Card header</Card.Header>
                         <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -32,12 +29,9 @@ class About extends Component{
                             content.{' '}
                         </Card.Text>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     <Card style={{flex: 1}}>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Header>Card header</Card.Header>
                         <Card.Body>
                         <Card.Title>Card title</Card.Title>
                         <Card.Text>
@@ -46,9 +40,6 @@ class About extends Component{
                             show that equal height action.
                         </Card.Text>
                         </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
                     </Card>
                     </CardDeck>
                     </div>
