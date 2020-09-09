@@ -8,7 +8,7 @@ class Experience extends Component{
             <div className="experience">
                 <div className="content_exp">
                     <h1>Where have I worked at?</h1>
-                    <CardDeck style={{display: 'flex', flexDirection: 'row', height: "75%"}}>
+                    <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>The Aerospace Corporation</Card.Header>
                         <Card.Body>
@@ -41,7 +41,7 @@ class Experience extends Component{
                     </Card>
                     </CardDeck>
                     <br></br>
-                    <CardDeck style={{display: 'flex', flexDirection: 'row', height: "75%"}}>
+                    <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
                         <Card.Body>
