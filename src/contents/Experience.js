@@ -41,7 +41,7 @@ class Experience extends Component{
                     </Card>
                     </CardDeck>
                     <br></br>
-                    <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
+                    <CardDeck style={{display: 'flex', flexDirection: 'row', height: "75%"}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
                         <Card.Body>
