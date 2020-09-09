@@ -6,7 +6,7 @@ import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
 import Experience from './contents/Experience';
-import Skills from './contents/Skills';
+import Projects from './contents/Projects';
 import Interests from './contents/Interests';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
