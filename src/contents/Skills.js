@@ -6,7 +6,7 @@ class Skills extends Component{
     render() {
         return (
             <div className="skills">
-                <div className="content">
+                <div className="content_skills">
                     <h1>Let's take a look at what I've built...</h1>
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>

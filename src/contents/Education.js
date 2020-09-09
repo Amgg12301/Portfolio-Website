@@ -6,7 +6,7 @@ class Education extends Component{
     render() {
         return (
             <div className="education">
-                <div className="content">
+                <div className="content_edu">
                     <h1>Where have I studied at?</h1>
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>

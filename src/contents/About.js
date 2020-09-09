@@ -6,7 +6,7 @@ class About extends Component{
     render() {
         return (
             <div className="about">
-                <div className="content">
+                <div className="content_about">
                     <h1>Quick Facts About Me...</h1>
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>

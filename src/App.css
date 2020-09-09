@@ -34,11 +34,15 @@ a:link, a:visited{
 
 a:hover, a:active{
   color: #1036df;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover{
   transform: scale(1.25);
+}
+
+a.current{
+  text-decoration: underline;
 }
 
 .content{
@@ -46,12 +50,59 @@ a:hover{
   position: relative;
   top: 100px;
   color: #000000;
+  font-size: 40px;
+  margin: 5px;
 }
 
 .profile_pic{
   border-radius: 20%;
   width: 350px;
   height: 480px;
+  margin: 20px;
+}
+
+.content_about{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #000000;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.content_edu{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #000000;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.content_exp{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #000000;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.content_skills{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #000000;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.content_int{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  color: #000000;
+  font-size: 20px;
   margin: 5px;
 }
 

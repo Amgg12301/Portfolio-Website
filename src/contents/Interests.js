@@ -6,7 +6,7 @@ class Interests extends Component{
     render() {
         return (
             <div className="interests">
-                <div className="content">
+                <div className="content_int">
                     <h1>I'm currently interested in...</h1>
                     <div class="card1">
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
