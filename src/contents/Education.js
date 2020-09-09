@@ -13,9 +13,9 @@ class Education extends Component{
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
                         <Card.Body>
-                        <Card.Title>Major: Computer Science</Card.Title>
+                        <Card.Title>Computer Science</Card.Title>
                         <Card.Text>
-                            I am a President's Scholar and FIRE researcher at UMD. 
+                            Work in progress, sorry about that :)
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -25,10 +25,9 @@ class Education extends Component{
                     <Card style={{flex: 1}}>
                         <Card.Header>Chantilly High School</Card.Header>
                         <Card.Body>
-                        <Card.Title>National AP Schol</Card.Title>
+                        <Card.Title>Computer Science</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            Work in progress, sorry about that :)
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
