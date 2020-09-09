@@ -8,6 +8,7 @@ import Education from './contents/Education';
 import Experience from './contents/Experience';
 import Skills from './contents/Skills';
 import Interests from './contents/Interests';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
         <Route path="/experience">
           <Experience />
         </Route>
-        <Route path="/skills">
-          <Skills />
+        <Route path="/projects">
+          <Projects />
         </Route>
         <Route path="/education">
           <Education />

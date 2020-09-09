@@ -9,7 +9,7 @@ class NavBar extends Component{
                     <NavItem item = "Home" link = "/"></NavItem>
                     <NavItem item = "About Me" link = "/about"></NavItem>
                     <NavItem item = "Experience" link = "/experience"></NavItem>
-                    <NavItem item = "Projects and Skills" link = "/skills"></NavItem>
+                    <NavItem item = "Projects" link = "/projects"></NavItem>
                     <NavItem item = "Education" link = "/education"></NavItem>
                     <NavItem item = "Interests" link = "/interests"></NavItem>
                 </ul>
