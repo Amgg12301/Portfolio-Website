@@ -14,7 +14,10 @@ class Experience extends Component{
                         <Card.Body>
                         <Card.Title style={{fontWeight:'bold'}}>Software Engineer Intern</Card.Title>
                         <Card.Text>
-                            I am a President's Scholar and FIRE researcher at UMD. 
+                            Over the summer, I developed a message latency collection and analysis application for messages
+                            sent between Kubernetes nodes and gathered the data with Elasticsearch for use 
+                            in Grafana dashboards. I am currently developing a peer-to-peer messaging prototype
+                            over CoAP for Kubernetes node-to-node communication.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -26,8 +29,10 @@ class Experience extends Component{
                         <Card.Body>
                         <Card.Title style={{fontWeight:'bold'}}>Software Engineering Summit</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            I created a Flask web application using the Yelp Fusion API to be selected for this 3-day summit. 
+                            I attended Machine Learning in Azure, iOS/Android Development, Firebase, and Arduino workshops. At 
+                            the end, there was a 24-hr hackathon where my team and I won 3rd place for a React and AWS web application
+                            that aimed at simplifying credit scores for young adults.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -42,7 +47,8 @@ class Experience extends Component{
                         <Card.Body>
                         <Card.Title style={{fontWeight:'bold'}}>Undergraduate Teaching Assistant</Card.Title>
                         <Card.Text>
-                            I am a President's Scholar and FIRE researcher at UMD. 
+                            I am currently a TA for CMSC131: Object Oriented Programming I in Java. I am teaching a 
+                            section of around 40 students the object-oriented principles and concepts through Java.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -54,8 +60,9 @@ class Experience extends Component{
                         <Card.Body>
                         <Card.Title style={{fontWeight:'bold'}}>Undergraduate Researcher</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            I am a part of an exclusive three-semester undergraduate research program (FIRE) where I am 
+                            working on creating a machine learning model that acts as an accurate classification system 
+                            for bacterial genomes and gene clusters using NLP.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
