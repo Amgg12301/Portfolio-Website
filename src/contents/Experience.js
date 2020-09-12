@@ -71,7 +71,7 @@ class Experience extends Component{
                     </Card>
                     </CardDeck>
                 </div>
-                <Social />
+                <footer><Social /></footer>
             </div>
         )
     }
