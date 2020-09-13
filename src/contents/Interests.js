@@ -12,7 +12,6 @@ class Interests extends Component{
                     <h2>Work in progress, sorry about that :)</h2>
                     </div>
                 </div>
-                <Social />
             </div>
         )
     }

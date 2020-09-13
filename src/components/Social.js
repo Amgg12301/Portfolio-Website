@@ -5,7 +5,7 @@ class Social extends Component{
     render(){
         return (
             <div className="socials">
-                <h4 align="center">Let's Stay Connected!</h4>
+                <h5 align="center">Let's Stay Connected!</h5>
                 <SocialIcon url="http://linkedin.com/in/agiri01" style={{ height: 35, width: 35, margin: "0px 5px 5px 5px"}}/>
                 <SocialIcon url="https://github.com/Amgg12301" bgColor="black" style={{ height: 35, width: 35, margin: "0px 5px 5px 5px"}}/>
                 <SocialIcon url="mailto:amoghgiri01@gmail.com" bgColor="#F14C0E" style={{ height: 35, width: 35, margin: "0px 5px 5px 5px"}}/>

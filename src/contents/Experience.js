@@ -40,7 +40,6 @@ class Experience extends Component{
                         </Card.Footer>
                     </Card>
                     </CardDeck>
-                    <br></br>
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
@@ -71,7 +70,6 @@ class Experience extends Component{
                     </Card>
                     </CardDeck>
                 </div>
-                <footer><Social /></footer>
             </div>
         )
     }

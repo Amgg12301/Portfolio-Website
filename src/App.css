@@ -10,7 +10,7 @@
 
 nav {
   height: 10%;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: rgb(36, 169, 221);
@@ -48,7 +48,6 @@ a.current{
 .content{
   text-align: center;
   position: relative;
-  top: 100px;
   color: #000000;
   font-size: 40px;
   margin: 5px;
@@ -72,7 +71,10 @@ a.current{
 
 .content_edu{
   text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
   top: 100px;
   color: #000000;
   font-size: 20px;
@@ -81,7 +83,9 @@ a.current{
 
 .content_exp{
   text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   overflow: auto;
   top: 100px;
   color: #000000;
