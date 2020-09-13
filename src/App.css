@@ -5,7 +5,7 @@
 .socials{
   position: fixed;
   bottom: 0px;
-  left: 42%;
+  left: 43%;
 }
 
 nav {
@@ -60,16 +60,7 @@ a.current{
   margin: 20px;
 }
 
-.content_about{
-  text-align: center;
-  position: relative;
-  top: 100px;
-  color: #000000;
-  font-size: 20px;
-  margin: 5px;
-}
-
-.content_edu{
+.content_about, .content_edu, .content_exp, .content_skills, .content_int{
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -80,36 +71,3 @@ a.current{
   font-size: 20px;
   margin: 5px;
 }
-
-.content_exp{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  overflow: auto;
-  top: 100px;
-  color: #000000;
-  font-size: 20px;
-  margin: 5px;
-}
-
-.content_skills{
-  text-align: center;
-  position: relative;
-  top: 100px;
-  color: #000000;
-  font-size: 20px;
-  margin: 5px;
-}
-
-.content_int{
-  text-align: center;
-  position: relative;
-  top: 100px;
-  color: #000000;
-  font-size: 20px;
-  margin: 5px;
-}
-
-
-

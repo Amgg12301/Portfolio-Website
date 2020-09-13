@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
 import { Card, CardDeck } from 'react-bootstrap';
 
 class Experience extends Component{
@@ -8,6 +7,7 @@ class Experience extends Component{
             <div className="experience">
                 <div className="content_exp">
                     <h1>Where have I worked at?</h1>
+                    <br></br>
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>The Aerospace Corporation</Card.Header>
@@ -40,6 +40,7 @@ class Experience extends Component{
                         </Card.Footer>
                     </Card>
                     </CardDeck>
+                    <br></br>
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
@@ -57,7 +58,7 @@ class Experience extends Component{
                     <Card style={{flex: 1}}>
                         <Card.Header>University of Maryland, College Park</Card.Header>
                         <Card.Body>
-                        <Card.Title style={{fontWeight:'bold'}}>Undergraduate Researcher</Card.Title>
+                        <Card.Title style={{fontWeight:'bold'}}>Undergraduate Student Researcher</Card.Title>
                         <Card.Text>
                             I am a part of an exclusive three-semester undergraduate research program (FIRE) where I am 
                             working on creating a machine learning model that acts as an accurate classification system 
@@ -69,6 +70,38 @@ class Experience extends Component{
                         </Card.Footer>
                     </Card>
                     </CardDeck>
+                    <br></br>
+                    <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
+                    <Card style={{flex: 1}}>
+                        <Card.Header>Appian</Card.Header>
+                        <Card.Body>
+                        <Card.Title style={{fontWeight:'bold'}}>First Year Forward Program</Card.Title>
+                        <Card.Text>
+                            During the program, I attended an exclusive tech talk about cloud-native technologies, including 
+                            Docker and Kubernetes. I also learned about Appian's low-code development platform, and the feasibility 
+                            and efficiency low-code brings to startups/companies.
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                        <small className="text-muted">July 2020</small>
+                        </Card.Footer>
+                    </Card>
+                    <Card style={{flex: 1}}>
+                        <Card.Header>JP Morgan Chase</Card.Header>
+                        <Card.Body>
+                        <Card.Title style={{fontWeight:'bold'}}>Software Engineering Virtual Experience</Card.Title>
+                        <Card.Text>
+                            I created a data-displaying chart via real-time data streaming for JPMC traders through a 
+                            TypeScript and ReactJS web application. I also implemented code in Perspective and gained 
+                            experience with JPMC's tools and frameworks used for software engineering.
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                        <small className="text-muted">May 2020</small>
+                        </Card.Footer>
+                    </Card>
+                    </CardDeck>
+                    <br></br>
                 </div>
             </div>
         )

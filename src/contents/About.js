@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
-import { Card, CardDeck } from 'react-bootstrap';
+import Typewriter from 'typewriter-effect';
 
 class About extends Component{
     render() {
@@ -9,7 +8,17 @@ class About extends Component{
                 <div className="content_about">
                     <h1>Quick Facts About Me...</h1>
                     <div class="card1">
-                    <h2>Work in progress, sorry about that :)</h2>
+                        <Typewriter
+                            onInit={(typewriter) => {
+                            typewriter.typeString('I am currently a sophmore at the University of Maryland, College Park studying computer science.')
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString('I am really passionate about web application development, cloud technologies, and cloud-native development.')
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .start();
+                        }}
+                        />
                     </div>
                 </div>
             </div>
