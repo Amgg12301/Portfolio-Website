@@ -5,7 +5,7 @@ class Skills extends Component{
         return (
             <div className="skills">
                 <div className="content_skills">
-                    <h1>Let's take a look at what I've built...</h1>
+                    <h1><b>Let's take a look at what I've built...</b></h1>
                     <div class="card1">
                         <h2>Work in progress, sorry about that :)</h2>
                     </div>

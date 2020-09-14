@@ -9,6 +9,10 @@ class Home extends Component{
             <div className="home">
                 <div className="content">
                     <Typewriter
+                        options={{
+                            delay: 100,
+                            skipAddStyles: true
+                        }}
                         onInit={(typewriter) => {
                             typewriter.typeString('Welcome to the Life of Amogh Giri!')
                             .callFunction(() => {

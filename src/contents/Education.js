@@ -5,7 +5,7 @@ class Education extends Component{
         return (
             <div className="education">
                 <div className="content_edu">
-                    <h1>Where am I studying at right now?</h1>
+                    <h1><b>Where am I studying at right now?</b></h1>
                     <div class="card1">
                         <h2>Work in progress, sorry about that :)</h2>
                     </div>

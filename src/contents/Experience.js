@@ -6,7 +6,7 @@ class Experience extends Component{
         return (
             <div className="experience">
                 <div className="content_exp">
-                    <h1>Where have I worked at?</h1>
+                    <h1><b>Where have I worked at?</b></h1>
                     <br></br>
                     <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
                     <Card style={{flex: 1}}>
