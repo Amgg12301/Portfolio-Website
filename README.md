@@ -1,2 +1,2 @@
-# Check out my life through my React website!
-Visit it at: https://amoghgiri.herokuapp.com
+# Learn more about me!
+Visit my website at: https://amoghgiri.herokuapp.com
