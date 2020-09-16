@@ -14,7 +14,7 @@ class Home extends Component{
                             skipAddStyles: true
                         }}
                         onInit={(typewriter) => {
-                            typewriter.typeString('Welcome to the Life of Amogh Giri!')
+                            typewriter.typeString('Welcome to the Life of Amogh Giri! ')
                             .callFunction(() => {
                                 console.log('String typed out!');
                             })
