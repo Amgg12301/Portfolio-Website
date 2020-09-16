@@ -18,9 +18,9 @@ class Interests extends Component{
                             .pauseFor(250)
                             .typeString('Specifically, I have become very experienced with AWS as I am a certified AWS Solutions Architect Associate, and I am looking to do the same in Azure. ')
                             .pauseFor(250)
-                            .typeString('In addition, during my summer internship, I was able to gain a lot experience with cloud-native technologies, such as Kubernetes, Docker, and ElasticSearch, and am working with them for a messaging prototype between Kubernetes nodes. ')
+                            .typeString('In addition, during my summer internship, I was able to gain a lot experience with cloud-native technologies, such as Kubernetes, Docker, and ElasticSearch, and am working with them right now on creating a messaging prototype between Kubernetes nodes. ')
                             .pauseFor(250)
-                            .typeString('Currently, I am expanding my knowledge in machine learning and data science; looking at NLP and deep learning right now. ')
+                            .typeString('Currently, I am expanding my knowledge in machine learning; looking at using NLP and neural networks right now. ')
                             .start();
                         }}
                         />
