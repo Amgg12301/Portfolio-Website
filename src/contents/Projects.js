@@ -12,7 +12,7 @@ class Skills extends Component{
                         <h3>More information about this project and my other projects on my Github!</h3>
                         <h4>Click me!! :)</h4>
                         <div class="github_icon">
-                            <SocialIcon url="https://github.com/Amgg12301" bgColor="black" style={{ height: 50, width: 50 }}/>
+                            <SocialIcon url="https://github.com/Amgg12301" bgColor="black" style={{ height: 60, width: 60 }}/>
                         </div>
                         <br></br>
                     </div>
