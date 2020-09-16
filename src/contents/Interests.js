@@ -16,7 +16,7 @@ class Interests extends Component{
                             onInit={(typewriter) => {
                             typewriter.typeString('Over the past couple of months, I have really been interested in the cloud. ')
                             .pauseFor(250)
-                            .typeString('Specifically, I have become very experienced with AWS as I am a certified AWS Solutions Architect, and I am looking to do the same in Azure. ')
+                            .typeString('Specifically, I have become very experienced with AWS as I am a certified AWS Solutions Architect Associate, and I am looking to do the same in Azure. ')
                             .pauseFor(250)
                             .typeString('In addition, during my summer internship, I was able to gain a lot experience with cloud-native technologies, such as Kubernetes, Docker, and ElasticSearch, and am working with them for a messaging prototype between Kubernetes nodes. ')
                             .pauseFor(250)
