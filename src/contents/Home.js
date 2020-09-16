@@ -10,7 +10,7 @@ class Home extends Component{
                 <div className="content">
                     <Typewriter
                         options={{
-                            delay: 100,
+                            delay: 50,
                             skipAddStyles: true
                         }}
                         onInit={(typewriter) => {
